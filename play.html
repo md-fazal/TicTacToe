@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Play!</title>
+    <link rel="icon" href="assets/game.webp" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="playground">
+        <div class="tictactoe">Tic Tac Toe</div>
+        <div class="level">
+            <div class="left-level" onclick="levelChange('left-level')"><</div>
+            <div class="level-num">Level 1</div>
+            <div class="right-level" onclick="levelChange('right-level')">></div>
+        </div>
+
+        <div class="undo" onclick="undo()"><img style="margin-left: 20px; margin-top: 5px;" src="assets/undo.png" alt="undo" width="30px"></div>
+        
+        <div class="tttground">
+            <div class="row1">
+                <div class="top-left" onclick="clicked('top-left')" ></div>    
+                <div class="top-middle" onclick="clicked('top-middle')"></div>
+                <div class="top-right" onclick="clicked('top-right')"></div>
+            </div>
+            <div class="row2">
+                <div class="middle-left" onclick="clicked('middle-left')"></div>    
+                <div class="middle-middle" onclick="clicked('middle-middle')"></div>
+                <div class="middle-right" onclick="clicked('middle-right')"></div>
+            </div>
+            <div class="row3">
+                <div class="bottom-left" onclick="clicked('bottom-left')"></div>    
+                <div class="bottom-middle" onclick="clicked('bottom-middle')"></div>
+                <div class="bottom-right" onclick="clicked('bottom-right')"></div>
+            </div>
+        </div>
+
+        
+    </div>
+</body>
+</html>

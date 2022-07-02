@@ -1,0 +1,218 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+}
+
+.playground{
+    background-color: #212845;
+    margin: auto;
+    width: 400px;
+    height: 100vh;
+    padding: 5px;
+}
+
+.tictactoe{
+    padding-top: 50px;
+    padding-left: 19%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 900px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #216efc;
+}
+
+.level{
+    display: flex;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    justify-content: center;
+}
+
+.left-level{
+    background-color: yellow;
+    height: 50px;
+    width: 30px;
+    border-radius: 20px;
+    border-style: solid;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.right-level{
+    background-color: yellow;
+    height: 50px;
+    width: 30px;
+    border-radius: 20px;
+    border-style: solid;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.level-num{
+    flex-grow: 2;
+    text-align: center;
+    color: yellow;
+}
+
+.undo{
+    margin-left: 80%;
+    margin-top: 40px;
+    border-radius: 200px;
+    border-style: solid;
+    background-color: #216efc;
+    cursor: pointer;
+}
+
+.undo:hover, .right-level:hover, .left-level:hover{
+    transform: scale(1.1);
+}
+
+.tttground{
+    margin: auto;
+    cursor: pointer;
+}
+
+.row1{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.top-left{
+    height: 70px;
+    width: 70px;
+    border-right: 2px solid #216efc;
+    border-bottom: 2px solid #216efc;
+    margin:2px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+}
+
+.top-left:hover, .top-middle:hover, .top-right:hover, .middle-left:hover, .middle-middle:hover, .middle-right:hover, .bottom-left:hover, .bottom-middle:hover, .bottom-right:hover{
+    background-color: #284272;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.top-middle{
+    /* display: inline-block; */
+    height: 70px;
+    width: 70px;
+    border-right: 2px solid #216efc;
+    border-left: 2px solid #216efc;
+    border-bottom: 2px solid #216efc;
+    margin:2px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+}
+
+.top-right{
+    height: 70px;
+    width: 70px;
+    border-left: 2px solid #216efc;
+    border-bottom: 2px solid #216efc;
+    margin:2px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+}
+
+.row2{
+    display: flex;
+    justify-content: center;
+}
+
+.middle-left{
+    height: 70px;
+    width: 70px;
+    border-right: 2px solid #216efc;
+    border-bottom: 2px solid #216efc;
+    border-top: 2px solid #216efc;
+    margin: 2px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+}
+
+.middle-middle{
+    /* display: inline-block; */
+    height: 70px;
+    width: 70px;
+    border: 2px solid #216efc;
+    margin: 2px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+}
+
+.middle-right{
+    height: 70px;
+    width: 70px;
+    border-left: 2px solid #216efc;
+    border-bottom: 2px solid #216efc;
+    border-top: 2px solid #216efc;
+    margin: 2px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+}
+
+.row3{
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-left{
+    height: 70px;
+    width: 70px;
+    border-right: 2px solid #216efc;
+    border-top: 2px solid #216efc;
+    margin:2px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+}
+
+.bottom-middle{
+    height: 70px;
+    width: 70px;
+    border-right: 2px solid #216efc;
+    border-left: 2px solid #216efc;
+    border-top: 2px solid #216efc;
+    margin:2px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+}
+
+.bottom-right{
+    height: 70px;
+    width: 70px;
+    border-left: 2px solid #216efc;
+    border-top: 2px solid #216efc;
+    margin:2px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+}

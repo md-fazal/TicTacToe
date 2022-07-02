@@ -1,0 +1,27 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "\"Classic Multiplayer TicTacToe Game\"",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/md-fazal/TicTacToe.git"
+  },
+  "keywords": [
+    "TicTacToe",
+    "game"
+  ],
+  "author": "Fazal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/md-fazal/TicTacToe/issues"
+  },
+  "homepage": "https://github.com/md-fazal/TicTacToe#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1"
+  }
+}
